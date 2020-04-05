@@ -1,0 +1,37 @@
+.slider-next {
+    display: inline;
+    position: absolute;
+    top: 50%;
+    z-index: 1000;
+    color: #fff;
+    background-color: aqua;
+    padding: 20px;
+    font-size: 30px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    transform: translate(-100%, -50%);
+    cursor: pointer;
+}
+
+.slider-prev {
+    display: inline;
+    position: absolute;
+    top: 50%;
+    z-index: 10000;
+    color: #fff;
+    background-color: aqua;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding: 20px;
+    font-size: 30px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.slider-next:hover {
+    background-color: aquamarine;
+}
+
+.slider-prev:hover {
+    background-color: aquamarine;
+}
